@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões - Escola Sem Futuro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #122a44;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .questao {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .questao label {
+            font-weight: bold;
+        }
+
+        .alternativa {
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #122a44;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .texto_cont {
+            width: 100%;
+            margin: 10px;
+            margin-top: 20px;
+        }
+
+        .input-label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .input-texto {
+            width: 97%;
+            height: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            vertical-align: top;
+            line-height: 1.5;
+        }
+
+        .send-button {
+            display: inline-block;
+            background-color: #122a44;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .send-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/escola sem futuro.png" alt="Logo do Colégio Sem Futuro" class="logo">
+        <h1>Simulado do Colégio Sem Futuro</h1>
+    </header>
+    <main>
+        
+        <div class="questao">
+            <label for="questao1">Questão 1 (Português):</label>
+            <p>Qual é o plural de "livro"?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao1_alternativa1" name="questao1" value="A">
+                <label for="questao1_alternativa1">a) Livros</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao1_alternativa2" name="questao1" value="B">
+                <label for="questao1_alternativa2">b) Livres</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao1_alternativa3" name="questao1" value="C">
+                <label for="questao1_alternativa3">c) Livrado</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao2">Questão 2 (Português):</label>
+            <p>Qual é o antônimo de "alegre"?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao2_alternativa1" name="questao2" value="A">
+                <label for="questao2_alternativa1">a) Triste</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao2_alternativa2" name="questao2" value="B">
+                <label for="questao2_alternativa2">b) Feliz</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao2_alternativa3" name="questao2" value="C">
+                <label for="questao2_alternativa3">c) Brilhante</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao3">Questão 3 (Português):</label>
+            <p>Qual é a forma correta do verbo "ser" no presente do indicativo?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao3_alternativa1" name="questao3" value="A">
+                <label for="questao3_alternativa1">a) És</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao3_alternativa2" name="questao3" value="B">
+                <label for="questao3_alternativa2">b) Seja</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao3_alternativa3" name="questao3" value="C">
+                <label for="questao3_alternativa3">c) Seres</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao4">Questão 4 (Português):</label>
+            <p>Qual é o plural de "cão"?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao4_alternativa1" name="questao4" value="A">
+                <label for="questao4_alternativa1">a) Cãos</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao4_alternativa2" name="questao4" value="B">
+                <label for="questao4_alternativa2">b) Cães</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao4_alternativa3" name="questao4" value="C">
+                <label for="questao4_alternativa3">c) Cãoes</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao5">Questão 5 (Português):</label>
+            <p>Qual é o plural de "papel"?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao5_alternativa1" name="questao5" value="A">
+                <label for="questao5_alternativa1">a) Papéis</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao5_alternativa2" name="questao5" value="B">
+                <label for="questao5_alternativa2">b) Papéiss</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao5_alternativa3" name="questao5" value="C">
+                <label for="questao5_alternativa3">c) Papeles</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao6">Questão 6 (Matemática):</label>
+            <p>Quanto é 2 + 2?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao6_alternativa1" name="questao6" value="A">
+                <label for="questao6_alternativa1">a) 3</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao6_alternativa2" name="questao6" value="B">
+                <label for="questao6_alternativa2">b) 4</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao6_alternativa3" name="questao6" value="C">
+                <label for="questao6_alternativa3">c) 5</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao7">Questão 7 (Matemática):</label>
+            <p>Qual é o resultado de 5 x 3?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao7_alternativa1" name="questao7" value="A">
+                <label for="questao7_alternativa1">a) 8</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao7_alternativa2" name="questao7" value="B">
+                <label for="questao7_alternativa2">b) 15</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao7_alternativa3" name="questao7" value="C">
+                <label for="questao7_alternativa3">c) 20</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao8">Questão 8 (Matemática):</label>
+            <p>Qual é o resultado de 10 ÷ 2?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao8_alternativa1" name="questao8" value="A">
+                <label for="questao8_alternativa1">a) 5</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao8_alternativa2" name="questao8" value="B">
+                <label for="questao8_alternativa2">b) 2</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao8_alternativa3" name="questao8" value="C">
+                <label for="questao8_alternativa3">c) 8</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao9">Questão 9 (Matemática):</label>
+            <p>Qual é o resultado de 4²?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao9_alternativa1" name="questao9" value="A">
+                <label for="questao9_alternativa1">a) 4</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao9_alternativa2" name="questao9" value="B">
+                <label for="questao9_alternativa2">b) 8</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao9_alternativa3" name="questao9" value="C">
+                <label for="questao9_alternativa3">c) 16</label>
+            </div>
+        </div>
+
+        <div class="questao">
+            <label for="questao10">Questão 10 (Matemática):</label>
+            <p>Qual é o resultado de 3³?</p>
+            <div class="alternativa">
+                <input type="radio" id="questao10_alternativa1" name="questao10" value="A">
+                <label for="questao10_alternativa1">a) 9</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao10_alternativa2" name="questao10" value="B">
+                <label for="questao10_alternativa2">b) 27</label>
+            </div>
+            <div class="alternativa">
+                <input type="radio" id="questao10_alternativa3" name="questao10" value="C">
+                <label for="questao10_alternativa3">c) 81</label>
+            </div>
+        </div>
+
+        <body>
+            <h1>Redação</h1>
+            <h2>Como Preparar o Café da Manhã Perfeito</h2>
+            <h4>Limite de 30 linhas.</h4>
+            <div class="texto_cont">
+                <label for="caixadetexto" class="input-label">Digite a resposta com base no tema acima.</label>
+                <textarea type="text" id="caixadetexto" class="input-texto" placeholder="Digite aqui.." rows="30" maxlength="3000"></textarea>
+            </div>
+        </body>
+
+        <a href="sucesso.html" class="send-button">Enviar</a>
+    </main>
+</body>
+
+</html>

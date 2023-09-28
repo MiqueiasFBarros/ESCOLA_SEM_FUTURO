@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado - Escola Sem Futuro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images\logo.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cadae2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #122a44, #cadae2 100%);
+            color: #122a44;
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .logo {
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .fundo {
+            background-color: none ;
+            border: 1px solid none;
+            border-radius: 25px;
+            padding: 35px;
+            text-align: center;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        .start-button {
+            display: inline-block;
+            background-color: #122a44;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+
+        .student-image {
+            max-width: 400px; 
+            height: auto; 
+            margin-bottom: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images\escola sem futuro.png" alt="Logo do Colégio Sem Futuro" class="logo">
+
+    </header>
+    <main>
+        <section class="fundo">
+            <img src="images\mulher-estudante.png" alt="Imagem do Estudante" class="student-image">
+            <p>Prepare-se para o simulado!</p>
+            <a href="formulario.html" class="start-button">Iniciar Simulado</a>
+        </section>
+    </main>
+</body>
+</html>
